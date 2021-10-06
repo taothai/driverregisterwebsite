@@ -1,6 +1,10 @@
 <template>
     <div class="Mainpage">
-      <iframe src="https://gecc.dlt.go.th:4447/2020-12-29/web_booking/page/pageregister.php" title="description" width="100%" height="100%"></iframe>
+       <a href="https://gecc.dlt.go.th:4447/2020-12-29/web_booking/page/pageregister.php">   
+      <div class="button">
+         คลิกจองคิวทำใบขับขี่ออนไลน์
+       </div>
+       </a> 
     </div>
 </template>
 
@@ -14,9 +18,30 @@ export default {}
     margin-left: -15px;
     margin-top: -10px;
     overflow: hidden;
-    background-color:#6f81ca ;
+    background: rgb(129,77,123);
+    background: linear-gradient(176deg, rgba(129,77,123,1) 36%, rgba(100,72,131,1) 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
     
 
+}
+._myiframe{
+  
+  width: 100%;
+  border:none;
+  overflow-x: hidden;
+  
+}
+.button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
 }
 ._myiframe{
   
